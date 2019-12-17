@@ -1,0 +1,31 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>michele cipollini</title>
+</head>
+<body><br><br><br>
+<center>
+<form action="/cipollini/login/action_page.php" method="post">
+  <h1 color="red">Login:<br><br></h1>
+  Nome:<br>
+  <input type="text" name="nome" value="" required>
+  <br>
+  password:<br>
+  <input type="text" name="password" value="" required><br><br>
+  <input type="submit" value="Esegui">
+</form>
+<p>Registrati:</p>
+<form action="/cipollini/login/action.php" method="post">
+  Nome:<br>
+  <input type="text" name="nome1" value="" required>
+  <br>
+  password:<br>
+  <input type="text" name="password1" value="" required><br><br>
+  <input type="submit" value="Esegui">
+</form>
+
+</body>
+</html>
